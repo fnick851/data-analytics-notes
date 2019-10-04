@@ -44,25 +44,26 @@ import numpy as np
 #     subset ="Chinese",
 #     keep = False, 
 #     inplace = True
-# ) # 去除重复行
+# ) # remove duplicated row
 # df2['Chinese'].astype('str') 
 # df2['Chinese'].astype(np.int64) 
 # df2['Chinese']=df2['Chinese'].str.strip('$')
-# # 删除左右两边空格
+# # remove whitespaces on both sides
 # df2['Chinese']=df2['Chinese'].map(str.strip)
-# # 删除左边空格
+# # remove whitespace on left
 # df2['Chinese']=df2['Chinese'].map(str.lstrip)
-# # 删除右边空格
+# # remove whitespace on right
 # df2['Chinese']=df2['Chinese'].map(str.rstrip)
-# # 全部大写
+# # uppercase all
 # df2.columns = df2.columns.str.upper()
-# # 全部小写
+# # lowercase all
 # df2.columns = df2.columns.str.lower()
-# # 首字母大写
+# # title case all
 # df2.columns = df2.columns.str.title()
 # df['name'] = df['name'].apply(str.upper)
 # def double_df(x):
 #            return 2*x
+# unicode dict keys
 # df1[u'语文'] = df1[u'语文'].apply(double_df)
 # def plus(df,n,m):
 #     df['new1'] = (df[u'语文']+df[u'英语']) * m
