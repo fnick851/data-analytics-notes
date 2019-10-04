@@ -8,11 +8,13 @@ chardet==3.0.4
 decorator==4.4.0
 defusedxml==0.6.0
 entrypoints==0.3
+et-xmlfile==1.0.1
 idna==2.8
 ipykernel==5.1.2
 ipython==7.8.0
 ipython-genutils==0.2.0
 ipywidgets==7.5.1
+jdcal==1.4.1
 jedi==0.15.1
 Jinja2==2.10.1
 jsonschema==3.0.2
@@ -27,6 +29,7 @@ nbconvert==5.6.0
 nbformat==4.4.0
 notebook==6.0.1
 numpy==1.17.2
+openpyxl==3.0.0
 pandas==0.25.1
 pandasql==0.7.3
 pandocfilters==1.4.2
@@ -57,3 +60,4 @@ urllib3==1.25.6
 wcwidth==0.1.7
 webencodings==0.5.1
 widgetsnbextension==3.5.1
+xlrd==1.2.0
