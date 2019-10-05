@@ -1,8 +1,8 @@
 # Data Analytics Notes
 
-Run with VS Code Python extension to execute integrated Jupyter notebook.
+Run with Python3 and VS Code Python extension to execute integrated Jupyter notebook.
 
-You can export standalone notebooks from there too.
+If you need you can export standalone notebooks from there too.
 
 ## Index
 
