@@ -12,6 +12,6 @@ If needed standalone notebooks can be exported from there too.
 -   scraper: `img_scraper`
     -   you need `chromedriver` executable
 -   data clearning: `cleaning_data`
--   reshape data: `data_reshape.py`
+-   normalize data: `data_normalize.py`
 -   basic data viz with Python: `data_viz.py`
 -   other notes in corresponding markdown files
