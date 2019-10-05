@@ -2,7 +2,7 @@
 
 Run with Python3 and VS Code Python extension to execute integrated Jupyter notebook.
 
-If you need you can export standalone notebooks from there too.
+If needed standalone notebooks can be exported from there too.
 
 ## Index
 
