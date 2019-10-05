@@ -29,3 +29,11 @@ x = np.array([[0., -3.,  1.],
 j = np.ceil(np.log10(np.max(abs(x))))
 scaled_x = x/(10**j)
 print(scaled_x)
+
+# %%
+y = np.array([[5000], [16000], [58000]])
+minmax_y = min_max_scaler.fit_transform(y)
+print(minmax_y)
+
+
+# %%
