@@ -1,6 +1,6 @@
 # %%
-from sklearn import preprocessing
 import numpy as np
+from sklearn import preprocessing
 
 # %%
 # a row is a sample, a column is a feature

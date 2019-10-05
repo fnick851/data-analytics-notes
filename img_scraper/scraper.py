@@ -1,8 +1,9 @@
 # coding:utf-8
-import requests
 import json
-from download import download
 
+import requests
+
+from download import download
 
 query = '永野芽郁'
 ''' download all images of Mei Nagano from douban.com  '''

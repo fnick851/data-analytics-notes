@@ -1,5 +1,6 @@
-import requests
 import os.path
+
+import requests
 
 
 def download(src, id, dirname):

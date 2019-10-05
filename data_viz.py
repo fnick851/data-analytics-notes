@@ -1,11 +1,11 @@
 # %%
-from matplotlib.font_manager import FontProperties
 import ssl
 
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import seaborn as sns
+from matplotlib.font_manager import FontProperties
 
 N = 1000
 x = np.random.randn(N)

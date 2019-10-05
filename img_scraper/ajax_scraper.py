@@ -1,8 +1,9 @@
-from selenium import webdriver
-from lxml import etree
 import os.path
-from download import download
 
+from lxml import etree
+from selenium import webdriver
+
+from download import download
 
 request_url = 'https://movie.douban.com/subject_search?search_text=永野芽郁&cat=1002'
 
