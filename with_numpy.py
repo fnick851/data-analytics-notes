@@ -178,3 +178,8 @@ print(
 
 
 # %%
+a1 = np.array([[4, 3, 2], [2, 4, 1]])
+a1 = np.sort(a1, axis=0)
+print(a1)
+
+# %%
