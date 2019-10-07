@@ -1,4 +1,6 @@
 # %%
+from sklearn.model_selection import cross_val_score
+import numpy as np
 import os
 
 import graphviz
@@ -65,6 +67,10 @@ pred_labels = clf.predict(test_features)
 # calc accuracy
 acc_decision_tree = round(clf.score(train_features, train_labels), 6)
 print(u'score accuracy is %.4lf' % acc_decision_tree)
+
+# K cross validate accuracy
+print(u'cross_val_score accuracy is %.4lf' %
+      np.mean(cross_val_score(clf, train_features, train_labels, cv=10)))
 
 
 # %%
