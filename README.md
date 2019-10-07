@@ -15,5 +15,5 @@ If needed standalone notebooks can be exported from there too.
 -   normalize data: `data_normalize.py`
 -   basic data viz with Python: `data_viz.py`
 -   algorithms: `algorithms/`
-    -   need to `brew install graphviz` to generate tree graph
+    -   need to `brew install graphviz` in order to generate tree graph
 -   other notes in corresponding markdown files
