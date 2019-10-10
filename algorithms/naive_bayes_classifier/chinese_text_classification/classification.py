@@ -96,7 +96,7 @@ train_features = tf.fit_transform(train_words_list)
 test_features = tf.transform(test_words_list)
 
 # %%
-# multinominal bayesian classifier
+# multinominal bayes classifier
 clf = MultinomialNB(alpha=0.001).fit(train_features, train_labels)
 predicted_labels = clf.predict(test_features)
 
